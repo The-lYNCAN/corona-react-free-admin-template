@@ -10,6 +10,11 @@ const Dropdowns = lazy(() => import('./basic-ui/Dropdowns'));
 const Typography = lazy(() => import('./basic-ui/Typography'));
 
 const BasicElements = lazy(() => import('./form-elements/BasicElements'));
+const FrontElements = lazy(() => import('./form-elements/front-top'));
+const FrontBestElements = lazy(() => import('./form-elements/front-best'));
+const FrontNewElements = lazy(() => import('./form-elements/front-new'));
+const FrontFlashElements = lazy(() => import('./form-elements/front-flash'));
+const FrontProductElements = lazy(() => import('./form-elements/front-product'));
 
 const BasicTable = lazy(() => import('./tables/BasicTable'));
 
@@ -36,6 +41,11 @@ class AppRoutes extends Component {
           <Route path="/basic-ui/typography" component={ Typography } />
 
           <Route path="/form-Elements/basic-elements" component={ BasicElements } />
+          <Route path="/form-Elements/front" component={ FrontElements } />
+          <Route path="/form-Elements/frontbest" component={ FrontBestElements } />
+          <Route path="/form-Elements/frontnew" component={ FrontNewElements } />
+          <Route path="/form-Elements/frontflash" component={ FrontFlashElements } />
+          <Route path="/form-Elements/frontproduct" component={ FrontProductElements } />
 
           <Route path="/tables/basic-table" component={ BasicTable } />
 
