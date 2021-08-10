@@ -1,0 +1,29 @@
+{
+  "name": "corona-react-free-admin-template",
+  "version": "1.0.0",
+  "description": "Love dark mode? Here’s Corona React, now available as a free template. Don’t let the name scare you, Corona is a sleek and sexy admin dashboard from BootstrapDash that is super easy to customize and set up. The free version has enough features for you to kickstart your project. If you like what you see, then check out the full version of this React admin template too.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "mongoose": "^5.13.6",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-lYNCAN/corona-react-free-admin-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The-lYNCAN/corona-react-free-admin-template/issues"
+  },
+  "homepage": "https://github.com/The-lYNCAN/corona-react-free-admin-template#readme"
+}
