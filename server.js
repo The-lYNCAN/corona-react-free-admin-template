@@ -1,6 +1,6 @@
 const express = require("express")
 const app = express()
-const PORT = 3003 || process.env.PORT
+const PORT = 3000 || process.env.PORT
 const url = "mongodb+srv://admin:I@mgreat7@elefaddb.riaeu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 const mongoose = require("mongoose")
 const product = require("./model/product")
